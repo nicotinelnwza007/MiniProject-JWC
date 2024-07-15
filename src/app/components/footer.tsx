@@ -1,6 +1,10 @@
 import { Icons } from "@/app/components/icons";
-import Google from "@/app/public/image/payments/googlepay.png";
 import Image from 'next/image'
+import visa from '@/app/public/image/payments/visa.png';
+import mastercard from '@/app/public/image/payments/mastercard.png';
+import paypal from '@/app/public/image/payments/paypal.png';
+import apple from '@/app/public/image/payments/applepay.png';
+import google from '@/app/public/image/payments/googlepay.png';
 
 export default function Footer() {
   return (
@@ -74,11 +78,11 @@ export default function Footer() {
           <div className="flex justify-between items-center">
             <p>JWC.CO © 2000-2023, All Rights Reserved</p>
             <div className="flex space-x-2">
-              <Image src="/src/app/public/image/payments/visa.png" width={46.61} height={30.03} alt="Visa" className="h-8"/>
-              <Image src="/src/app/public/image/payments/mastercard.png" width={46.61} height={30.03} alt="mastercard" className="h-8"/>
-              <Image src="/src/app/public/image/payments/paypal.png" width={46.61} height={30.03} alt="paypal" className="h-8"/>
-              <Image src="/src/app/public/image/payments/applepay.png" width={46.61} height={30.03} alt="applepay" className="h-8"/>
-              <Image src="/src/app/public/image/payments/googlepay.png" width={46.61} height={30.03} alt="googlepay" className="h-8"/>
+              <Image src={visa} width={46.61} height={30.03} alt="Visa" className="h-8"/>
+              <Image src={mastercard} width={46.61} height={30.03} alt="mastercard" className="h-8"/>
+              <Image src={paypal} width={46.61} height={30.03} alt="paypal" className="h-8"/>
+              <Image src={apple} width={46.61} height={30.03} alt="applepay" className="h-8"/>
+              <Image src={google} width={46.61} height={30.03} alt="googlepay" className="h-8"/>
 
             </div>
           </div>
