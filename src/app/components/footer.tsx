@@ -74,7 +74,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-8 border-t border-gray-300 pt-4">
+        <div className="mt-8 border-t border-gray-300 p-8">
           <div className="flex justify-between items-center">
             <p>JWC.CO © 2000-2023, All Rights Reserved</p>
             <div className="flex space-x-2">
