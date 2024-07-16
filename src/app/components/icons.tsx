@@ -24,7 +24,7 @@ export const Icons = {
         return (
             <svg
             {...props}
-            className={`${props.className} h-5 w-5 text-gray-400`}
+            className={`h-5 w-5 text-gray-400`}
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
