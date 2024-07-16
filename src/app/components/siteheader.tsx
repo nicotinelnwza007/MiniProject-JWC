@@ -31,13 +31,13 @@ const Siteheader = () => {
             <Icons.ArrowDown className={`ml-2 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
           </button>
           {isOpen && (
-            <div ref={dropdownRef} className="absolute mt-12 items-center w-[150px] bg-white border  rounded-md">
+            <div ref={dropdownRef} className="absolute mt-12 items-center w-[1500px] bg-white border z-40 rounded-md">
              <div className="div">Shop branch</div>
               <a href="#" className="block  text-gray-800 hover:bg-gray-100">Category 2</a>
               <a href="#" className="block  text-gray-800 hover:bg-gray-100">Category 3</a>
               <a href="#" className="block  text-gray-800 hover:bg-gray-100">Category 4</a>
               <div className="grid-cols-3">
-                
+
               </div>
             </div>
           )}
