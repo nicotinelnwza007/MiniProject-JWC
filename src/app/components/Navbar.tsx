@@ -26,8 +26,8 @@ const Navbar = () => {
   return (
     <div className="items-center ">
 
-      <div className="flex items-center p-4 gap-[48px]">
-        <div className="text-black text-[32px] font-bold px-48">JWC.CO</div>
+      <div className="flex items-center p-4 gap-[28px]">
+        <div className="text-black text-[32px] font-bold px-40">JWC.CO</div>
         <div className="items-center">
           <button onClick={toggleDropdown} className="text-[16px] flex items-center">
             <a href="#" className="text-[16px]">Shop</a>

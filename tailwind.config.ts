@@ -11,6 +11,19 @@ const config: Config = {
       backgroundImage: {
         'people': "url('/src/app/public/image/People.png')",
       },
+      animation: {
+        slide: 'slide 20s linear infinite',
+      },
+      keyframes: {
+        slide: {
+         '0%': { transform: 'translateX(100%)' }, 
+          '100%': { transform: 'translateX(-100%)' }, 
+        },
+        reverseplay: {
+          '0%': { transform: 'translateX(-100%);' }, 
+           '100%': { transform: 'translateX(100%)' }, 
+         },
+      },
     },
   },
   plugins: [],
