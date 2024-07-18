@@ -3,7 +3,7 @@ import Section from "./components/section";
 import Newarrival from "./components/newarrive";
 import AutoSlideLogo from "./components/AutoSlideLogo";
 import Categories from "./components/categories";
-import Review from "./components/review";
+import Comment from "./components/review";
 export default function Home() {
   return (
     <>
@@ -11,7 +11,7 @@ export default function Home() {
       <AutoSlideLogo />
       <Newarrival />
       <Categories/>
-      <Review />
+      <Comment />
     </>
   );
 }

@@ -5,7 +5,7 @@ import background from '@/app/public/image/People.png';
 
 const Section = () => {
   return (
-    <section className="relative p-16 overflow-hidden">
+    <section className="h-[790px] relative p-16 overflow-hidden">
       
       <div className="absolute inset-0 z-[-1]">
         <Image 
@@ -31,7 +31,7 @@ const Section = () => {
           </a>
         </div>
 
-        <div className="mt-12 flex justify-between w-full max-w-screen-md">
+        <div className="mt-4 flex justify-between w-full max-w-screen-md">
           <div>
             <span className="text-[40px] font-bold text-black">200+</span>
             <p className="text-gray-500">International Brands</p>

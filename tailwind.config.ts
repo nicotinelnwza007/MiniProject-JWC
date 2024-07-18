@@ -9,20 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'people': "url('/src/app/public/image/People.png')",
+       
       },
       animation: {
-        slide: 'slide 20s linear infinite',
+        slider: 'slide 20s linear infinite',
       },
       keyframes: {
         slide: {
-         '0%': { transform: 'translateX(100%)' }, 
-          '100%': { transform: 'translateX(-100%)' }, 
+         '0%': {  transform: "translateX(100%)" }, 
+          '100%': { transform: "translateX(-100%)" }, 
         },
-        reverseplay: {
-          '0%': { transform: 'translateX(-100%);' }, 
-           '100%': { transform: 'translateX(100%)' }, 
-         },
+      },
+      fontFamily: {
+        DM: ["DM Sans", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
   },
