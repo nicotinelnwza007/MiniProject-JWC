@@ -8,8 +8,8 @@ import gym from '@/app/public/image/categories/gym.png';
 
 const Categories = () => {
     return (
-        <div className="my-20 flex items-center justify-center">
-        <div className="p-16 flex flex-col items-center justify-center rounded-[40px] text-black bg-[#f0f0f0]">
+        <div className="flex items-center justify-center m-20">
+        <div className="p-16 flex flex-col items-center justify-center rounded-3xl text-black bg-[#f0f0f0]">
           <div className="text-center text-[48px] font-bold w-full pb-16">BROWSE BY DRESS STYLE</div>
           <div className="flex flex-col gap-4 ">
           <div className="flex gap-4">
