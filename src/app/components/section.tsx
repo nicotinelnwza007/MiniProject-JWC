@@ -5,7 +5,7 @@ import background from '@/app/public/image/People.png';
 
 const Section = () => {
   return (
-    <section className="h-[790px] relative p-16 overflow-hidden">
+    <section className="h-[795px] relative p-16 overflow-hidden">
       
       <div className="absolute inset-0 z-[-1]">
         <Image 
@@ -18,7 +18,7 @@ const Section = () => {
       </div>
 
    
-      <div className="mx-auto flex flex-col relative z-10">
+      <div className="mx-auto flex flex-col relative z-10 justify-center p-16">
         <div className="flex flex-col mb-8">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">
             FIND CLOTHES THAT <br /> MATCHES YOUR STYLE

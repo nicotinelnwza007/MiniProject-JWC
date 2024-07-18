@@ -8,17 +8,20 @@ import gym from '@/app/public/image/categories/gym.png';
 
 const Categories = () => {
     return (
-        <div className="flex items-center justify-center min-h-screen ">
-        <div className="bg-[#F0F0F0] rounded-xl w-[1239px] h-[866px] m-4 flex flex-col items-center p-8">
-          <div className="text-center font-bold text-[48px] mb-8">BROWSE BY DRESS STYLE</div>
-          <div className="grid grid-cols-2 gap-7 w-full h-full">      
-              <Image src={causal} alt="casual" width={400} height={180}className="rounded-lg justify-self-center" />
-              <Image src={formal} alt="formal" width={600} height={200} className="rounded-lg" />         
-              <Image src={party} alt="party" width={600} height={200} className="justify-self-center" />
-              <Image src={gym} alt="gym" width={400} height={120} className="rounded-lg justify-self-center" />    
-           
+        <div className="my-20 flex items-center justify-center">
+        <div className="p-16 flex flex-col items-center justify-center rounded-[40px] text-black bg-[#f0f0f0]">
+          <div className="text-center text-[48px] font-bold w-full pb-16">BROWSE BY DRESS STYLE</div>
+          <div className="flex flex-col gap-4 ">
+          <div className="flex gap-4">
+            <Image src={causal} alt="casual" />
+            <Image src={formal} alt="formal" />
+          </div>
+          <div className="flex gap-4">
+            <Image src={party} alt="party" />
+            <Image src={gym} alt="gym" />
           </div>
         </div>
+      </div>
       </div>
     );
 };

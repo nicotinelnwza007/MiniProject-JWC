@@ -81,11 +81,11 @@ export default function Footer() {
           <div className="flex justify-between items-center">
             <p>JWC.CO © 2000-2023, All Rights Reserved</p>
             <div className="flex space-x-2">
-              <Image src={visa} width={46.61} height={30.03} alt="Visa" className="h-8" />
-              <Image src={mastercard} width={46.61} height={30.03} alt="mastercard" className="h-8" />
-              <Image src={paypal} width={46.61} height={30.03} alt="paypal" className="h-8" />
-              <Image src={apple} width={46.61} height={30.03} alt="applepay" className="h-8" />
-              <Image src={google} width={46.61} height={30.03} alt="googlepay" className="h-8" />
+              <Image src={visa} width={60} height={50} alt="Visa" />
+              <Image src={mastercard} width={60} height={50}  alt="mastercard" />
+              <Image src={paypal} width={60} height={50}  alt="paypal"  />
+              <Image src={apple} width={60} height={50}  alt="applepay" />
+              <Image src={google} width={60} height={50}  alt="googlepay"  />
 
             </div>
           </div>
